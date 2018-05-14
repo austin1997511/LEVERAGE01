@@ -1,34 +1,9 @@
 /*!
 
  =========================================================
- * Now-ui-kit - v1.1.0
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/now-ui-kit
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- */
-
-
-/*     brand Colors              */
-
-
-/*      light colors         */
-
-
-/* ========================================================================
- * bootstrap-switch - v3.3.2
- * http://www.bootstrap-switch.org
- * ========================================================================
- * Copyright 2012-2013 Mattia Larentis
- * http://www.apache.org/licenses/LICENSE-2.0
  */
 
 .bootstrap-switch {
@@ -3222,6 +3197,12 @@ p.description {
     color: #9A9A9A;
 }
 
+.tab-pane {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9A9A9A;
+}
+
 .text-primary {
     color: #f96332 !important;
 }
@@ -6000,7 +5981,7 @@ Created using IcoMoon - icomoon.io
         right: 0;
         z-index: 1032;
         visibility: visible;
-        background-color: #999;
+        background-color: #33658A;
         overflow-y: visible;
         border-top: none;
         text-align: left;
@@ -6017,18 +5998,16 @@ Created using IcoMoon - icomoon.io
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .sidebar-collapse .navbar-collapse:before {
-        background: #880000;
+        background: #33658A;
         /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(#880000 0%, #000 80%);
+        background: -webkit-linear-gradient(#33658A 0%, #2F4858 80%);
         /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#880000 0%, #000 80%);
+        background: -o-linear-gradient(#33658A 0%, #2F4858 80%);
         /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#880000 0%, #000 80%);
+        background: -moz-linear-gradient(#33658A 0%, #2F4858 80%);
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#880000 0%, #000 80%);
+        background: linear-gradient(#33658A 0%, #2F4858 80%);
         /* Standard syntax (must be last) */
-        opacity: 0.76;
-        filter: alpha(opacity=76);
         display: block;
         content: "";
         position: absolute;
@@ -6061,7 +6040,7 @@ Created using IcoMoon - icomoon.io
     }
     .sidebar-collapse .navbar .dropdown.show .dropdown-menu,
     .sidebar-collapse .navbar .dropdown .dropdown-menu {
-        background-color: #B22222;
+        background-color: #33658A;
         border: 0;
         transition: none;
         -webkit-box-shadow: none;
