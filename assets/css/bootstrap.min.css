@@ -3349,7 +3349,7 @@ tbody.collapse.show {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 30;
     list-style: none
 }
 
@@ -5495,12 +5495,12 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #007bff!important
+    background-color: #5A6B84!important
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-    background-color: #0062cc!important
+    background-color: #5A6B84!important
 }
 
 .bg-secondary {
@@ -8524,5 +8524,88 @@ a.text-dark:hover {
   color: #495057;
   background-color: #fafafa;
   border-color: #dee2e6 #dee2e6 #fafafa;
+}
+
+
+
+
+
+
+/*# 名言 斜體 */
+
+.blockquote {
+    border-left: 5px solid #F6AE2D;
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.blockquote p {
+  font-size: 1.063rem;
+  font-style: italic;
+}
+
+.blockquote small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+}
+
+
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+
+.blockquote-footer::before {
+  content: "\2014 \00A0";
+}
+
+
+
+  .index-page .cd-section .tim-typo .tim-note {
+    width: 60px;
+  }
+
+
+  @media screen and (max-width: 767px) {
+  .presentation-page .section-components .components-macbook {
+    max-width: 350px !important;
+    max-height: 250px !important;
+    margin-top: 12vh;
+    left: -12px;
+  }
+
+
+    .index-page .cd-section .tim-typo .tim-note {
+    width: 60px;
+  }
+
+  .tim-typo {
+  margin-right: 25px;
+  padding-left: 15%;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.tim-typo .tim-note {
+  bottom: 5px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  left: 0;
+  margin-left: 20px;
+  position: absolute;
+  width: 260px;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
