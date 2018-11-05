@@ -3873,9 +3873,103 @@ tbody.collapse.show {
     padding: 1.25rem
 }
 
+
+
+
+
 .card-title {
-    margin-bottom: .75rem
+  margin-bottom: 0.75rem;
 }
+
+.card-title,
+.card-title a {
+  color: #3C4858;
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.card .card-header.card-header-image .card-title {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 1.125rem;
+  text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card .card-title {
+  margin-top: 0.625rem;
+}
+.card .card-title:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+.card-description {
+  color: #999;
+}
+.card [class*="header-"] .author a,
+.card [class*="header-"] .stats,
+.card [class*="header-"] .card-category,
+.card [class*="header-"] .card-description,
+.card[class*="bg-"] .author a,
+.card[class*="bg-"] .stats,
+.card[class*="bg-"] .card-category,
+.card[class*="bg-"] .card-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+.card .card-footer {
+  padding: 0.9375rem 1.875rem;
+}
+
+.card .card-body+.card-footer {
+  padding-top: 0rem;
+  border: 0;
+  border-radius: 6px;
+}
+
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+}
+
+.card .card-footer .author,
+.card .card-footer .stats {
+  display: inline-flex;
+}
+
+.card .card-footer .stats {
+  color: #999999;
+}
+
+.card .card-footer .stats .material-icons {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
 
 .card-subtitle {
     margin-top: -.375rem;

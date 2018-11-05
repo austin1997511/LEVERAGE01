@@ -3167,6 +3167,8 @@ p.description {
     font-size: 1.14em;
 }
 
+
+
 .title {
     font-weight: 700;
 }
@@ -3196,6 +3198,21 @@ p.description {
     font-weight: 700;
     color: #9A9A9A;
 }
+
+
+.category-2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #aaaaaa;
+}
+
+
+.category-3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+
 
 .tab-pane {
     text-transform: uppercase;
@@ -5163,7 +5180,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page .header .title {
-    color: #FFFFFF;
+    color: #303030;
 }
 
 .landing-page .section-team .team .team-player img {
@@ -5790,7 +5807,7 @@ Created using IcoMoon - icomoon.io
 [data-background-color] h6,
 [data-background-color] a:not(.btn):not(.dropdown-item),
 [data-background-color] .icons-container i {
-    color: #FFFFFF;
+    color: #303030;
 }
 
 [data-background-color] .separator {
